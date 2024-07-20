@@ -172,5 +172,5 @@ static void 打印字符编码()
     while ((字符 = getchar()) != '\n')
     {
 
-    }
+}
 }
