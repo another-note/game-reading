@@ -12,9 +12,10 @@ void 计算e值();
 void 输出闰年();
 void 打印星形();
 void 打印字符编码();
+void 去数字空格();
 void main()
 {
-    打印字符编码();
+    去数字空格();
 }
 static void 分钟制化小时制()
 {
@@ -171,6 +172,22 @@ static void 打印字符编码()
     int 输出次数 = 0;
     while ((字符 = getchar()) != '\n')
     {
-
+        printf("\t%d", 字符);
+        输出次数 += 1;
+        if (输出次数 % 3 == 0)
+        {
+            printf("\n");
+        }
+    }
+}
+static void 去数字空格()
+{
+    char 字符 = ' ';
+    while (字符 = getchar() != '\n')
+    {
+        if (字符 != ' ')
+        {
+            putchar(字符);
+        }
     }
 }
