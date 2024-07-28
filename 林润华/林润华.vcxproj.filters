@@ -15,8 +15,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="林润华.c">
+    <ClCompile Include="应试.c">
       <Filter>源文件</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="狭义中文到C.c">
+      <Filter>源文件</Filter>
+    </None>
   </ItemGroup>
 </Project>

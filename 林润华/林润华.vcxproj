@@ -129,9 +129,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="林润华.c">
+    <ClCompile Include="应试.c">
       <FileType>CppCode</FileType>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="狭义中文到C.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
